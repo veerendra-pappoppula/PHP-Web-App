@@ -47,7 +47,7 @@ data = df.loc[:,['Library Name','Member Name','Column Name']].values.tolist()
 #print(data)
 
 try:
-    conn=m.connect(user='IR', password='IRMIS13',
+    conn=m.connect(user='IR', password='pwd',
                                  host='localhost',
                                  database='sas')
 except:
