@@ -7,7 +7,7 @@ import os, pandas as pd, mysql.connector,itertools, json
 connection = mysql.connector.connect(host='localhost',
                                          database='sas',
                                          user='IR',
-                                         password='XmKfd^BkdQ79Ts')
+                                         password='pwd')
 
 
 
